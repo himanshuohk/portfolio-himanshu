@@ -116,7 +116,7 @@ export default function AchievementsMilestones() {
                     </div>
                     <h3 className="am-achievement-title">{title}</h3>
                     <p className="am-achievement-desc">{description}</p>
-                    
+
                     <div className="am-actions">
                       <a href={link} className="am-link-btn" target="_blank" rel="noopener noreferrer">
                         View Details

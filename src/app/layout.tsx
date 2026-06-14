@@ -20,56 +20,7 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   title: "Himanshu Raj | Operations & Growth Systems",
-  description:
-    "BBA student building systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-    ],
-    other: [
-      {
-        rel: "icon",
-        url: "/android-chrome-192x192.png",
-        sizes: "192x192",
-        type: "image/png",
-      },
-      {
-        rel: "icon",
-        url: "/android-chrome-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-      },
-    ],
-  },
-  openGraph: {
-    title: "Himanshu Raj | Operations & Growth Systems",
-    description:
-      "BBA student building systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    url: "https://portfolio-himanshu.vercel.app",
-    siteName: "Himanshu Raj Portfolio",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Himanshu Raj | Operations & Growth Systems",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Himanshu Raj | Operations & Growth Systems",
-    description:
-      "BBA student building systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    images: ["/og-image.png"],
-  },
+  description: "BBA student building structured systems and operations that power growth. Experieced in workflow automation, content operations, and digital systems.",
 };
 
 export default function RootLayout({
