@@ -20,7 +20,32 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   title: "Himanshu Raj | Operations & Growth Systems",
-  description: "BBA student building structured systems and operations that power growth. Experieced in workflow automation, content operations, and digital systems.",
+  description:
+    "BBA student building systems, websites, content operations, workflow automation, and exploring AI for business execution.",
+  openGraph: {
+    title: "Himanshu Raj | Operations & Growth Systems",
+    description:
+      "BBA student building systems, websites, content operations, workflow automation, and exploring AI for business execution.",
+    url: "https://portfolio-himanshu.vercel.app",
+    siteName: "Himanshu Raj Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Himanshu Raj | Operations & Growth Systems",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Himanshu Raj | Operations & Growth Systems",
+    description:
+      "BBA student building systems, websites, content operations, workflow automation, and exploring AI for business execution.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
