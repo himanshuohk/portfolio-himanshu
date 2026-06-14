@@ -8,6 +8,7 @@ import AchievementsMilestones from "./components/AchievementsMilestones";
 import JourneyTimeline from "./components/JourneyTimeline";
 import AIExploration from "./components/AIExploration";
 import ContactDrawer from "./components/ContactDrawer";
+import ClosingSection from "./components/ClosingSection";
 
 export default function Home() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -97,27 +98,8 @@ export default function Home() {
         <AIExploration />
       </main>
 
-      {/* Footer */}
-      <footer className="footer">
-        <div className="container footer-container">
-          <div className="footer-text">
-            © {new Date().getFullYear()} Himanshu Raj. Built with Next.js.
-          </div>
-          <div className="footer-links">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
-            <a
-              href="#contact"
-              className="footer-link"
-              onClick={(e) => {
-                e.preventDefault();
-                setIsDrawerOpen(true);
-              }}
-            >
-              Email
-            </a>
-          </div>
-        </div>
-      </footer>
+      {/* Closing Section (replaces generic footer) */}
+      <ClosingSection />
 
       {/* Contact Drawer */}
       <ContactDrawer isOpen={isDrawerOpen} onClose={() => setIsDrawerOpen(false)} />
