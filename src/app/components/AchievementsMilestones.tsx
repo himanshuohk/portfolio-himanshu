@@ -100,6 +100,7 @@ export default function AchievementsMilestones() {
                       <Image
                         src={image}
                         alt={title}
+                        title={title}
                         fill
                         sizes="(max-width: 768px) 100vw, 400px"
                         className="am-image"
@@ -116,7 +117,7 @@ export default function AchievementsMilestones() {
                     </div>
                     <h3 className="am-achievement-title">{title}</h3>
                     <p className="am-achievement-desc">{description}</p>
-
+                    
                     <div className="am-actions">
                       <a href={link} className="am-link-btn" target="_blank" rel="noopener noreferrer">
                         View Details

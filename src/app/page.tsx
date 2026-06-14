@@ -50,9 +50,9 @@ export default function Home() {
               Learning Business by Building Real Projects
             </h1>
             <p className="description">
-              During my gap year, I worked with international clients, built website systems,
-              coordinated content operations, and explored workflow automation. Today, I'm
-              pursuing a BBA while continuing to learn through real projects, startup experimentation,
+              During my gap year, I worked with international clients, built website systems, 
+              coordinated content operations, and explored workflow automation. Today, I'm 
+              pursuing a BBA while continuing to learn through real projects, startup experimentation, 
               and business execution.
             </p>
             <div className="btn-group">
@@ -68,7 +68,7 @@ export default function Home() {
                 Let's Connect
               </a>
             </div>
-
+            
             {/* Credibility Strip */}
             <div className="credibility-strip">
               <span className="pill-tag">International Clients</span>

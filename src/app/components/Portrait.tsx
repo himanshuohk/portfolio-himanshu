@@ -7,11 +7,12 @@ export default function Portrait() {
       <div className="portrait-outer-ring">
         <div className="portrait-radial-bg"></div>
         <div className="portrait-wrapper">
-          <Image
-            src="https://plain-apac-prod-public.komododecks.com/202606/12/RmHVcf6mrXe0QAlWE4bh/image.png"
-            alt="Himanshu Raj Portrait"
-            width={374}
-            height={374}
+          <Image 
+            src="https://plain-apac-prod-public.komododecks.com/202606/12/RmHVcf6mrXe0QAlWE4bh/image.png" 
+            alt="Himanshu Raj - BBA Student at JBIT Dehradun" 
+            title="Himanshu Raj - BBA Student at JBIT Dehradun"
+            width={374} 
+            height={374} 
             className="portrait-img"
             priority
             unoptimized
