@@ -27,9 +27,6 @@ export default function ClosingSection() {
           "As a student, I did not wait for experience—I built it through real projects, real clients, and real work."
         </blockquote>
 
-        {/* Understated action line */}
-        <p className="cs-action-text">Let’s build something meaningful.</p>
-
         {/* Links Row */}
         <div className="cs-links">
           <a
@@ -67,9 +64,12 @@ export default function ClosingSection() {
           </a>
         </div>
 
+        {/* Understated action line */}
+        <p className="cs-action-text">Let’s build something meaningful.</p>
+
         {/* Copyright */}
         <div className="cs-copyright">
-          © {new Date().getFullYear()} Himanshu Raj. Built with Next.js.
+          © {new Date().getFullYear()} Himanshu Raj. All rights reserved.
         </div>
       </div>
     </section>
