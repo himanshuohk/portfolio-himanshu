@@ -23,10 +23,16 @@ const achievements = [
     id: "achievement-02",
     num: "02",
     year: "2025",
-    category: "PROJECT LAUNCH",
-    title: "Achievement Title Placeholder 02",
-    description: "Description Placeholder: A detailed description of the milestone, showcasing meaningful achievements, competitions, projects, leadership experiences, or client milestones that have shaped your professional journey.",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+    category: "STARTUP PRESENTATION",
+    title: "Presenting Gaurdeo to UTU Leadership",
+    description: (
+      <>
+        Received the opportunity to present <strong>Gaurdeo</strong> before the Chairman of Uttarakhand Technical University (<strong>UTU Chairman</strong>) during a <strong>startup presentation</strong>. The experience strengthened my confidence in <strong>public speaking</strong>, startup communication, and presenting ideas clearly to academic and leadership audiences.
+      </>
+    ),
+    image: "/gaurdeo-startup-presentation.webp",
+    imageAlt: "Himanshu Raj presenting Gaurdeo startup idea before Uttarakhand Technical University leadership",
+    imageTitle: "Himanshu Raj presenting Gaurdeo Startup",
     link: "#",
   },
   {
