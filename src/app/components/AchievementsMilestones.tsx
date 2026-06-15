@@ -70,11 +70,17 @@ const achievements = [
   {
     id: "achievement-05",
     num: "05",
-    year: "2024",
-    category: "CERTIFICATION",
-    title: "Achievement Title Placeholder 05",
-    description: "Description Placeholder: A detailed description of the milestone, showcasing meaningful achievements, competitions, projects, leadership experiences, or client milestones that have shaped your professional journey.",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+    year: "2026",
+    category: "STARTUP INCUBATION",
+    title: "Selected for Incubation",
+    description: (
+      <>
+        My startup idea was selected for <strong>Startup Incubation</strong> support at JB Institute of Technology (<strong>JBIT</strong>). The initiative received recognition from the college leadership, including the Head of Department and <strong>IQAC</strong> leadership, providing access to faculty guidance, mentorship, <strong>institutional support</strong>, and opportunities for further development. The experience marked an important step in transforming ideas into practical ventures while gaining exposure to entrepreneurship within an academic ecosystem.
+      </>
+    ),
+    image: "/startup-incubation-jbit.webp",
+    imageAlt: "Himanshu Raj receiving recognition after startup incubation selection at JB Institute of Technology",
+    imageTitle: "Himanshu Raj - Startup Incubation Selection at JBIT",
     link: "#",
   },
   {
@@ -230,6 +236,18 @@ export default function AchievementsMilestones() {
         <span>Student Innovation</span>
         <span>Digital Transformation</span>
         <span>Business Operations</span>
+        <span>Himanshu Raj Incubation</span>
+        <span>Himanshu Raj Startup Incubation</span>
+        <span>Himanshu Raj Innovation</span>
+        <span>JBIT Incubation</span>
+        <span>Startup Incubation Program</span>
+        <span>College Startup Incubation</span>
+        <span>IQAC</span>
+        <span>Innovation and Entrepreneurship</span>
+        <span>Academic Entrepreneurship</span>
+        <span>Startup Development</span>
+        <span>Student Startup</span>
+        <span>Entrepreneurship Support</span>
       </div>
     </section>
   );

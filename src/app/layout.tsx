@@ -107,6 +107,12 @@ export const metadata: Metadata = {
         width: 1405,
         height: 1120,
         alt: "Himanshu Raj receiving Founders Day innovation award for AI implementation in business",
+      },
+      {
+        url: "/startup-incubation-jbit.webp",
+        width: 1448,
+        height: 1086,
+        alt: "Himanshu Raj receiving recognition after startup incubation selection at JB Institute of Technology",
       }
     ],
     locale: "en_US",
@@ -117,7 +123,7 @@ export const metadata: Metadata = {
     title: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
     description:
       "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp", "/founders-day-winner.webp"],
+    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp", "/founders-day-winner.webp", "/startup-incubation-jbit.webp"],
   },
 };
 
@@ -173,7 +179,8 @@ export default function RootLayout({
           "Winner — Srijan Startup Presentation Competition",
           "Presenting Gaurdeo to UTU Leadership",
           "Meeting Startup Investors",
-          "Founders Day Winner"
+          "Founders Day Winner",
+          "Selected for Incubation"
         ],
         "memberOf": [
           {
@@ -255,6 +262,22 @@ export default function RootLayout({
           "name": "Himanshu Raj - Founders Day Winner"
         },
         "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj AI, Himanshu Raj AI Workflows, Himanshu Raj Business Innovation, Himanshu Raj Founders Day, Himanshu Raj Award, Himanshu Raj Winner, Himanshu Raj Artificial Intelligence, Himanshu Raj AI Implementation, Himanshu Raj Entrepreneurship, AI Implementation in Business, Business Innovation, Innovation Award, Founders Day Competition, Student Innovation, Digital Transformation, Business Operations"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://himanshuraj.me/#achievement-incubation",
+        "name": "Selected for Incubation",
+        "creator": {
+          "@id": "https://himanshuraj.me/#person"
+        },
+        "description": "My startup idea was selected for incubation support at JB Institute of Technology (JBIT). The initiative received recognition from the college leadership, including the Head of Department and IQAC leadership, providing access to faculty guidance, mentorship, institutional support, and opportunities for further development.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://himanshuraj.me/startup-incubation-jbit.webp",
+          "caption": "Himanshu Raj's startup selected for incubation support and mentorship at JB Institute of Technology, recognized by institutional leadership.",
+          "name": "Himanshu Raj - Startup Incubation Selection at JBIT"
+        },
+        "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj Startup, Himanshu Raj Entrepreneurship, Himanshu Raj Incubation, Himanshu Raj Startup Incubation, Himanshu Raj Innovation, Himanshu Raj Startup Founder, Himanshu Raj Student Entrepreneur, JBIT Incubation, Startup Incubation Program, College Startup Incubation, IQAC, Innovation and Entrepreneurship, Academic Entrepreneurship, Startup Development, Business Innovation, Student Startup, Entrepreneurship Support"
       }
     ]
   };

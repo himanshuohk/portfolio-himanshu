@@ -29,6 +29,11 @@ export async function GET() {
       <image:title>Himanshu Raj - Founders Day Winner</image:title>
       <image:caption>Himanshu Raj receiving recognition for an award-winning project focused on AI implementation and business innovation.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://himanshuraj.me/startup-incubation-jbit.webp</image:loc>
+      <image:title>Himanshu Raj - Startup Incubation Selection at JBIT</image:title>
+      <image:caption>Himanshu Raj's startup selected for incubation support and mentorship at JB Institute of Technology, recognized by institutional leadership.</image:caption>
+    </image:image>
   </url>
 </urlset>`;
 
