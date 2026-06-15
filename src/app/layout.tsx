@@ -101,6 +101,12 @@ export const metadata: Metadata = {
         width: 1448,
         height: 1086,
         alt: "Himanshu Raj interacting with startup founder Sachint Karnatak during an entrepreneurship and fundraising discussion",
+      },
+      {
+        url: "/founders-day-winner.webp",
+        width: 1405,
+        height: 1120,
+        alt: "Himanshu Raj receiving Founders Day innovation award for AI implementation in business",
       }
     ],
     locale: "en_US",
@@ -111,7 +117,7 @@ export const metadata: Metadata = {
     title: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
     description:
       "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp"],
+    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp", "/founders-day-winner.webp"],
   },
 };
 
@@ -166,7 +172,8 @@ export default function RootLayout({
         "award": [
           "Winner — Srijan Startup Presentation Competition",
           "Presenting Gaurdeo to UTU Leadership",
-          "Meeting Startup Investors"
+          "Meeting Startup Investors",
+          "Founders Day Winner"
         ],
         "memberOf": [
           {
@@ -232,6 +239,22 @@ export default function RootLayout({
           "name": "Himanshu Raj with POCONUT Founder Sachint Karnatak"
         },
         "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj Entrepreneurship, Himanshu Raj Startup, Himanshu Raj Investor Meeting, Himanshu Raj Startup Founder, Himanshu Raj Fundraising, Himanshu Raj Startup Growth, Sachint Karnatak, POCONUT, POCONUT Founder, Startup Fundraising, Early Stage Startup, Entrepreneurship, Startup Team Building, Business Leadership"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://himanshuraj.me/#achievement-foundersday",
+        "name": "Founders Day Winner",
+        "creator": {
+          "@id": "https://himanshuraj.me/#person"
+        },
+        "description": "Received recognition on Founders Day for presenting an innovative idea focused on AI implementation in business. The project was selected as the winning entry and highlighted practical applications of AI for improving business operations, productivity, and decision-making.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://himanshuraj.me/founders-day-winner.webp",
+          "caption": "Himanshu Raj receiving recognition for an award-winning project focused on AI implementation and business innovation.",
+          "name": "Himanshu Raj - Founders Day Winner"
+        },
+        "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj AI, Himanshu Raj AI Workflows, Himanshu Raj Business Innovation, Himanshu Raj Founders Day, Himanshu Raj Award, Himanshu Raj Winner, Himanshu Raj Artificial Intelligence, Himanshu Raj AI Implementation, Himanshu Raj Entrepreneurship, AI Implementation in Business, Business Innovation, Innovation Award, Founders Day Competition, Student Innovation, Digital Transformation, Business Operations"
       }
     ]
   };

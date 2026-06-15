@@ -54,11 +54,17 @@ const achievements = [
   {
     id: "achievement-04",
     num: "04",
-    year: "2024",
-    category: "LEADERSHIP",
-    title: "Achievement Title Placeholder 04",
-    description: "Description Placeholder: A detailed description of the milestone, showcasing meaningful achievements, competitions, projects, leadership experiences, or client milestones that have shaped your professional journey.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+    year: "2026",
+    category: "INNOVATION AWARD",
+    title: "Founders Day Winner",
+    description: (
+      <>
+        Received recognition on <strong>Founders Day</strong> for presenting an innovative idea focused on <strong>AI implementation</strong> in business. The project was selected as the <strong>winner</strong> and highlighted practical applications of AI for improving business operations, productivity, decision-making, and driving <strong>business innovation</strong>.
+      </>
+    ),
+    image: "/founders-day-winner.webp",
+    imageAlt: "Himanshu Raj receiving Founders Day innovation award for AI implementation in business",
+    imageTitle: "Himanshu Raj - Founders Day Winner",
     link: "#",
   },
   {
@@ -210,6 +216,20 @@ export default function AchievementsMilestones() {
         <span>Entrepreneurship</span>
         <span>Startup Team Building</span>
         <span>Business Leadership</span>
+        <span>Himanshu Raj AI</span>
+        <span>Himanshu Raj Business Innovation</span>
+        <span>Himanshu Raj Founders Day</span>
+        <span>Himanshu Raj Award</span>
+        <span>Himanshu Raj Winner</span>
+        <span>Himanshu Raj Artificial Intelligence</span>
+        <span>Himanshu Raj AI Implementation</span>
+        <span>AI Implementation in Business</span>
+        <span>Business Innovation</span>
+        <span>Innovation Award</span>
+        <span>Founders Day Competition</span>
+        <span>Student Innovation</span>
+        <span>Digital Transformation</span>
+        <span>Business Operations</span>
       </div>
     </section>
   );

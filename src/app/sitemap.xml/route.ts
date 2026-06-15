@@ -24,6 +24,11 @@ export async function GET() {
       <image:title>Himanshu Raj with POCONUT Founder Sachint Karnatak</image:title>
       <image:caption>Himanshu Raj participating in an investor-focused discussion with Sachint Karnatak, founder of POCONUT, covering fundraising, startup growth, and team building.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://himanshuraj.me/founders-day-winner.webp</image:loc>
+      <image:title>Himanshu Raj - Founders Day Winner</image:title>
+      <image:caption>Himanshu Raj receiving recognition for an award-winning project focused on AI implementation and business innovation.</image:caption>
+    </image:image>
   </url>
 </urlset>`;
 
