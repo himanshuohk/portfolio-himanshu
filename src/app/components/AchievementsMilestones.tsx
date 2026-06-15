@@ -8,10 +8,10 @@ const achievements = [
     num: "01",
     year: "2026",
     category: "COMPETITION WINNER",
-    title: "Winner — Srijan Startup Presentation Competition",
+    title: "Srijan Project Winner",
     description: (
       <>
-        Presented a <strong>startup idea</strong> during the Srijan Project Presentation Competition and was selected as the <strong>winner</strong> after evaluation by an <strong>IIT Roorkee professor</strong>. The experience provided valuable feedback on <strong>entrepreneurship</strong>, problem-solving, and building ideas with practical business potential.
+        Presented a project during the <strong>Srijan Project Presentation Competition</strong> and was selected as the <strong>winner</strong> after evaluation by an <strong>IIT Roorkee professor</strong>. The experience provided valuable feedback on <strong>problem-solving</strong>, <strong>innovation</strong>, and building practical solutions with real-world impact.
       </>
     ),
     image: "/srijan-startup-competition-winner.webp",
@@ -24,7 +24,7 @@ const achievements = [
     num: "02",
     year: "2026",
     category: "STARTUP PRESENTATION",
-    title: "Presenting Gaurdeo to UTU Leadership",
+    title: "Gaurdeo Presentation",
     description: (
       <>
         Received the opportunity to present <strong>Gaurdeo</strong> before the Chairman of Uttarakhand Technical University (<strong>UTU Chairman</strong>) during a <strong>startup presentation</strong>. The experience strengthened my confidence in <strong>public speaking</strong>, startup communication, and presenting ideas clearly to academic and leadership audiences.

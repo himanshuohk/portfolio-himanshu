@@ -11,12 +11,12 @@ export async function GET() {
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://himanshuraj.me/srijan-startup-competition-winner.webp</image:loc>
-      <image:title>Himanshu Raj - Winner of Srijan Startup Presentation Competition</image:title>
-      <image:caption>Himanshu Raj presenting a startup idea before IIT Roorkee professors and winning the Srijan Project Presentation Competition.</image:caption>
+      <image:title>Himanshu Raj - Srijan Project Winner</image:title>
+      <image:caption>Himanshu Raj presenting a project before IIT Roorkee professors and winning the Srijan Project Presentation Competition.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://himanshuraj.me/gaurdeo-startup-presentation.webp</image:loc>
-      <image:title>Himanshu Raj presenting Gaurdeo Startup</image:title>
+      <image:title>Himanshu Raj - Gaurdeo Presentation</image:title>
       <image:caption>Himanshu Raj presenting Gaurdeo, a startup concept, before the Chairman of Uttarakhand Technical University.</image:caption>
     </image:image>
     <image:image>

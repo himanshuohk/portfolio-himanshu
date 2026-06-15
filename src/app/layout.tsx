@@ -182,8 +182,8 @@ export default function RootLayout({
         ],
         "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj Dehradun, Himanshu Raj UTU, Himanshu Raj Uttarakhand Technical University, Himanshu Raj Student Entrepreneur, Himanshu Raj Startup Founder, Himanshu Raj Business Operations, Himanshu Raj AI Workflows, Himanshu Raj Digital Systems, Himanshu Raj Entrepreneurship, Himanshu Raj Startup Presentation, Himanshu Raj Gaurdeo, Himanshu Raj Guardeo, Himanshu Raj VEOMA AI, Himanshu Raj JBIT Dehradun",
         "award": [
-          "Winner — Srijan Startup Presentation Competition",
-          "Presenting Gaurdeo to UTU Leadership",
+          "Srijan Project Winner",
+          "Gaurdeo Presentation",
           "Meeting Startup Investors",
           "Founders Day Winner",
           "Selected for Incubation",
@@ -209,11 +209,11 @@ export default function RootLayout({
       {
         "@type": "CreativeWork",
         "@id": "https://himanshuraj.me/#achievement-srijan",
-        "name": "Winner — Srijan Startup Presentation Competition",
+        "name": "Srijan Project Winner",
         "creator": {
           "@id": "https://himanshuraj.me/#person"
         },
-        "description": "Presented a startup idea during the Srijan Project Presentation Competition and was selected as the winner after evaluation by an IIT Roorkee professor.",
+        "description": "Presented a project during the Srijan Project Presentation Competition and was selected as the winner after evaluation by an IIT Roorkee professor. The experience provided valuable feedback on problem-solving, innovation, and building practical solutions with real-world impact.",
         "image": {
           "@type": "ImageObject",
           "url": "https://himanshuraj.me/srijan-startup-competition-winner.webp",
@@ -225,7 +225,7 @@ export default function RootLayout({
       {
         "@type": "CreativeWork",
         "@id": "https://himanshuraj.me/#achievement-gaurdeo",
-        "name": "Presenting Gaurdeo to UTU Leadership",
+        "name": "Gaurdeo Presentation",
         "creator": {
           "@id": "https://himanshuraj.me/#person"
         },
