@@ -1,0 +1,30 @@
+import { NextResponse } from "next/server";
+
+export async function GET() {
+  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://himanshuraj.me</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://himanshuraj.me/srijan-startup-competition-winner.webp</image:loc>
+      <image:title>Himanshu Raj - Winner of Srijan Startup Presentation Competition</image:title>
+      <image:caption>Himanshu Raj presenting a startup idea before IIT Roorkee professors and winning the Srijan Project Presentation Competition.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://himanshuraj.me/gaurdeo-startup-presentation.webp</image:loc>
+      <image:title>Himanshu Raj presenting Gaurdeo Startup</image:title>
+      <image:caption>Himanshu Raj presenting Gaurdeo, a startup concept, before the Chairman of Uttarakhand Technical University.</image:caption>
+    </image:image>
+  </url>
+</urlset>`;
+
+  return new Response(sitemapXml, {
+    headers: {
+      "Content-Type": "application/xml",
+    },
+  });
+}

@@ -23,6 +23,27 @@ export const metadata: Metadata = {
   title: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
   description:
     "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
+  keywords: [
+    "Himanshu Raj",
+    "Himanshu Raj BBA",
+    "Himanshu BBA",
+    "Himanshu Raj JBIT",
+    "Himanshu Raj JB Institute of Technology",
+    "Himanshu Raj Dehradun",
+    "Himanshu Raj UTU",
+    "Himanshu Raj Uttarakhand Technical University",
+    "Himanshu Raj Student Entrepreneur",
+    "Himanshu Raj Startup Founder",
+    "Himanshu Raj Business Operations",
+    "Himanshu Raj AI Workflows",
+    "Himanshu Raj Digital Systems",
+    "Himanshu Raj Entrepreneurship",
+    "Himanshu Raj Startup Presentation",
+    "Himanshu Raj Gaurdeo",
+    "Himanshu Raj Guardeo",
+    "Himanshu Raj VEOMA AI",
+    "Himanshu Raj JBIT Dehradun"
+  ],
   alternates: {
     canonical: "https://himanshuraj.me",
   },
@@ -63,6 +84,18 @@ export const metadata: Metadata = {
         height: 630,
         alt: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
       },
+      {
+        url: "/srijan-startup-competition-winner.webp",
+        width: 1402,
+        height: 1122,
+        alt: "Himanshu Raj receiving Winner Award at Srijan Startup Project Presentation Competition",
+      },
+      {
+        url: "/gaurdeo-startup-presentation.webp",
+        width: 1402,
+        height: 1122,
+        alt: "Himanshu Raj presenting Gaurdeo startup idea before Uttarakhand Technical University leadership",
+      }
     ],
     locale: "en_US",
     type: "website",
@@ -72,7 +105,7 @@ export const metadata: Metadata = {
     title: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
     description:
       "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    images: ["/og-image.png"],
+    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp"],
   },
 };
 
@@ -89,7 +122,14 @@ export default function RootLayout({
         "@id": "https://himanshuraj.me/#person",
         "name": "Himanshu Raj",
         "url": "https://himanshuraj.me",
-        "description": "BBA student focused on business operations, digital systems, workflow automation, websites, AI exploration, and startup building.",
+        "jobTitle": "BBA Student",
+        "description": "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dehradun",
+          "addressRegion": "Uttarakhand",
+          "addressCountry": "India"
+        },
         "sameAs": [
           "https://www.linkedin.com/in/himanshu-raj-74323237a/",
           "https://www.instagram.com/himanshuohk/"
@@ -98,13 +138,28 @@ export default function RootLayout({
           {
             "@type": "EducationalOrganization",
             "name": "JB Institute of Technology",
-            "alternateName": "JBIT Dehradun"
+            "alternateName": "JBIT Dehradun",
+            "url": "https://jbitdoon.edu.in"
           },
           {
             "@type": "EducationalOrganization",
             "name": "Uttarakhand Technical University",
-            "alternateName": "UTU"
+            "alternateName": "UTU",
+            "url": "https://uktech.ac.in"
           }
+        ],
+        "knowsAbout": [
+          "Business Operations",
+          "Digital Systems",
+          "Workflow Automation",
+          "AI Workflows",
+          "Entrepreneurship",
+          "Startup Exploration"
+        ],
+        "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj Dehradun, Himanshu Raj UTU, Himanshu Raj Uttarakhand Technical University, Himanshu Raj Student Entrepreneur, Himanshu Raj Startup Founder, Himanshu Raj Business Operations, Himanshu Raj AI Workflows, Himanshu Raj Digital Systems, Himanshu Raj Entrepreneurship, Himanshu Raj Startup Presentation, Himanshu Raj Gaurdeo, Himanshu Raj Guardeo, Himanshu Raj VEOMA AI, Himanshu Raj JBIT Dehradun",
+        "award": [
+          "Winner — Srijan Startup Presentation Competition",
+          "Presenting Gaurdeo to UTU Leadership"
         ],
         "memberOf": [
           {
@@ -122,6 +177,38 @@ export default function RootLayout({
         "founder": {
           "@id": "https://himanshuraj.me/#person"
         }
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://himanshuraj.me/#achievement-srijan",
+        "name": "Winner — Srijan Startup Presentation Competition",
+        "creator": {
+          "@id": "https://himanshuraj.me/#person"
+        },
+        "description": "Presented a startup idea during the Srijan Project Presentation Competition and was selected as the winner after evaluation by an IIT Roorkee professor.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://himanshuraj.me/srijan-startup-competition-winner.webp",
+          "caption": "Himanshu Raj presenting a startup idea before IIT Roorkee professors and winning the Srijan Project Presentation Competition.",
+          "name": "Himanshu Raj - Winner of Srijan Startup Presentation Competition"
+        },
+        "keywords": "Himanshu Raj, Srijan Competition, Srijan Project Presentation, Startup Competition Winner, IIT Roorkee Professor, Business Innovation Competition, Student Startup Competition, Entrepreneurship Competition, Project Presentation Winner"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://himanshuraj.me/#achievement-gaurdeo",
+        "name": "Presenting Gaurdeo to UTU Leadership",
+        "creator": {
+          "@id": "https://himanshuraj.me/#person"
+        },
+        "description": "Received the opportunity to present Gaurdeo before the Chairman of Uttarakhand Technical University (UTU Chairman) during a startup presentation.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://himanshuraj.me/gaurdeo-startup-presentation.webp",
+          "caption": "Himanshu Raj presenting Gaurdeo, a startup concept, before the Chairman of Uttarakhand Technical University.",
+          "name": "Himanshu Raj presenting Gaurdeo Startup"
+        },
+        "keywords": "Himanshu Raj, Gaurdeo, Guardeo, Gaurdeo Startup, Startup Pitch, UTU Chairman, Uttarakhand Technical University Chairman, Student Entrepreneurship, Business Presentation, Startup Showcase"
       }
     ]
   };

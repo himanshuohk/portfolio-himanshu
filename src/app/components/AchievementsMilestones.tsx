@@ -22,7 +22,7 @@ const achievements = [
   {
     id: "achievement-02",
     num: "02",
-    year: "2025",
+    year: "2026",
     category: "STARTUP PRESENTATION",
     title: "Presenting Gaurdeo to UTU Leadership",
     description: (
@@ -145,6 +145,53 @@ export default function AchievementsMilestones() {
             </div>
           );
         })}
+      </div>
+
+      {/* Hidden Search Tags and SEO Keyword Arrays */}
+      <div style={{ display: "none" }} aria-hidden="true">
+        <span>Himanshu Raj</span>
+        <span>Himanshu Raj BBA</span>
+        <span>Himanshu BBA</span>
+        <span>Himanshu Raj JBIT</span>
+        <span>Himanshu Raj JB Institute of Technology</span>
+        <span>Himanshu Raj Dehradun</span>
+        <span>Himanshu Raj UTU</span>
+        <span>Himanshu Raj Uttarakhand Technical University</span>
+        <span>Himanshu Raj Student Entrepreneur</span>
+        <span>Himanshu Raj Startup Founder</span>
+        <span>Himanshu Raj Business Operations</span>
+        <span>Himanshu Raj AI Workflows</span>
+        <span>Himanshu Raj Digital Systems</span>
+        <span>Himanshu Raj Entrepreneurship</span>
+        <span>Himanshu Raj Startup Presentation</span>
+        <span>Himanshu Raj Gaurdeo</span>
+        <span>Himanshu Raj Guardeo</span>
+        <span>Himanshu Raj VEOMA AI</span>
+        <span>Himanshu Raj JBIT Dehradun</span>
+        <span>Srijan Competition</span>
+        <span>Srijan Project Presentation</span>
+        <span>Startup Competition Winner</span>
+        <span>IIT Roorkee Professor</span>
+        <span>Business Innovation Competition</span>
+        <span>Student Startup Competition</span>
+        <span>Entrepreneurship Competition</span>
+        <span>Project Presentation Winner</span>
+        <span>Himanshu Raj IIT Roorkee</span>
+        <span>Himanshu Raj Srijan</span>
+        <span>Himanshu Raj Winner</span>
+        <span>Himanshu Raj Startup Competition</span>
+        <span>Himanshu Raj JBIT Winner</span>
+        <span>Himanshu Raj BBA Student</span>
+        <span>Gaurdeo</span>
+        <span>Guardeo</span>
+        <span>Gaurdeo Startup</span>
+        <span>Startup Pitch</span>
+        <span>UTU Chairman</span>
+        <span>Uttarakhand Technical University Chairman</span>
+        <span>Student Entrepreneurship</span>
+        <span>Business Presentation</span>
+        <span>Startup Showcase</span>
+        <span>Himanshu Raj Public Speaking</span>
       </div>
     </section>
   );
