@@ -19,9 +19,6 @@ export default function ClosingSection() {
   return (
     <footer className="cs-section" aria-label="Closing Note">
       <div className="cs-container">
-        {/* Eyebrow */}
-        <span className="cs-eyebrow">One Last Thought</span>
-
         {/* Quote */}
         <blockquote className="cs-quote">
           "As a student, I did not wait for experience—I built it through real projects, real clients, and real work."

@@ -9,9 +9,11 @@ import JourneyTimeline from "./components/JourneyTimeline";
 import AIExploration from "./components/AIExploration";
 import ContactDrawer from "./components/ContactDrawer";
 import ClosingSection from "./components/ClosingSection";
+import RenovationModal from "./components/RenovationModal";
 
 export default function Home() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isRenovationModalOpen, setIsRenovationModalOpen] = useState(false);
 
   return (
     <>
@@ -22,7 +24,16 @@ export default function Home() {
             Himanshu Raj
           </div>
           <nav className="nav-links">
-            <a href="#projects" className="nav-link">Projects</a>
+            <a
+              href="#projects"
+              className="nav-link"
+              onClick={(e) => {
+                e.preventDefault();
+                setIsRenovationModalOpen(true);
+              }}
+            >
+              Projects
+            </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="nav-link">LinkedIn</a>
             <a
               href="#contact"
@@ -50,13 +61,21 @@ export default function Home() {
               Learning Business by Building Real Projects
             </h1>
             <p className="description">
-              During my gap year, I worked with international clients, built website systems, 
-              coordinated content operations, and explored workflow automation. Today, I'm 
-              pursuing a BBA while continuing to learn through real projects, startup experimentation, 
-              and business execution.
+              Working at the intersection of business operations, digital systems, workflow automation, and AI. 
+              Through client projects, startup initiatives, website implementation, and content operations, 
+              I continue to build practical experience in solving business challenges through structured execution and technology.
             </p>
             <div className="btn-group">
-              <a href="#projects" className="btn btn-primary">View Projects</a>
+              <a
+                href="#projects"
+                className="btn btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsRenovationModalOpen(true);
+                }}
+              >
+                View Projects
+              </a>
               <a
                 href="#contact"
                 className="btn btn-secondary"
@@ -103,6 +122,9 @@ export default function Home() {
 
       {/* Contact Drawer */}
       <ContactDrawer isOpen={isDrawerOpen} onClose={() => setIsDrawerOpen(false)} />
+
+      {/* Renovation Modal */}
+      <RenovationModal isOpen={isRenovationModalOpen} onClose={() => setIsRenovationModalOpen(false)} />
     </>
   );
 }

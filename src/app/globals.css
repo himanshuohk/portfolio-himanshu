@@ -2052,7 +2052,7 @@ a {
 ═══════════════════════════════════════════════════════════ */
 
 .cs-section {
-  padding: 10rem 0 6rem;
+  padding: 5rem 0 6rem;
   border-top: 1px solid var(--border);
   margin-top: 4rem;
   background-color: #FFFFFF; /* White background to match design style */
@@ -2171,7 +2171,7 @@ a {
 
 @media (max-width: 768px) {
   .cs-section {
-    padding: 7rem 0 4.5rem;
+    padding: 3.5rem 0 4.5rem;
   }
 
   .cs-quote {
@@ -2188,7 +2188,7 @@ a {
 
 @media (max-width: 480px) {
   .cs-section {
-    padding: 5.5rem 0 3.5rem;
+    padding: 2.5rem 0 3.5rem;
   }
 
   .cs-quote {
@@ -2202,6 +2202,189 @@ a {
   .cs-links {
     flex-direction: column;
     gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   RENOVATION MODAL
+   ═══════════════════════════════════════════════════════════ */
+
+/* Backdrop Overlay */
+.rm-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 400ms cubic-bezier(0.16, 1, 0.3, 1), visibility 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1999;
+}
+
+.rm-backdrop-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Modal Wrapper (for centering) */
+.rm-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 1.5rem;
+  pointer-events: none;
+  visibility: hidden;
+  transition: visibility 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.rm-wrapper-open {
+  visibility: visible;
+}
+
+/* Modal Card */
+.rm-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(212, 200, 180, 0.45);
+  border-radius: 24px;
+  width: 100%;
+  max-width: 500px;
+  padding: 3.5rem 2.5rem 3rem;
+  box-shadow: 0 20px 50px rgba(17, 24, 39, 0.12);
+  text-align: center;
+  position: relative;
+  pointer-events: auto;
+  transform: scale(0.92) translateY(10px);
+  opacity: 0;
+  transition: transform 400ms cubic-bezier(0.16, 1, 0.3, 1), opacity 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.rm-wrapper-open .rm-card {
+  transform: scale(1) translateY(0);
+  opacity: 1;
+}
+
+/* Close Button */
+.rm-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.rm-close-btn:hover {
+  background-color: var(--accent-light);
+  color: var(--text-primary);
+}
+
+/* Graphic/Icon Container */
+.rm-icon-wrap {
+  width: 80px;
+  height: 80px;
+  background-color: #FAF5E6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  border: 1px dashed rgba(212, 200, 180, 0.8);
+  animation: rmPulse 3s infinite ease-in-out;
+}
+
+@keyframes rmPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(245, 230, 198, 0.4);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 10px rgba(245, 230, 198, 0);
+  }
+}
+
+.rm-icon {
+  color: #D48C00;
+}
+
+/* Content */
+.rm-title {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+  font-size: 2.35rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.rm-message {
+  font-size: 0.975rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 2.25rem;
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CTA Dismiss Button */
+.rm-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--accent);
+  color: var(--background);
+  border: 1px solid var(--accent);
+  transition: var(--transition-fast);
+}
+
+.rm-action-btn:hover {
+  background-color: #2b3544;
+  border-color: #2b3544;
+}
+
+@media (max-width: 480px) {
+  .rm-card {
+    padding: 3rem 1.75rem 2.5rem;
+    border-radius: 20px;
+  }
+  
+  .rm-title {
+    font-size: 1.85rem;
+  }
+  
+  .rm-message {
+    font-size: 0.9rem;
+    margin-bottom: 1.75rem;
+  }
+  
+  .rm-icon-wrap {
+    width: 70px;
+    height: 70px;
     margin-bottom: 1.5rem;
   }
 }
