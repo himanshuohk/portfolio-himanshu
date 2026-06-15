@@ -154,15 +154,6 @@ export default function AchievementsMilestones() {
                     <h3 className="am-achievement-title">{title}</h3>
                     <p className="am-achievement-desc">{description}</p>
                     
-                    <div className="am-actions">
-                      <a href={link} className="am-link-btn" target="_blank" rel="noopener noreferrer">
-                        View Details
-                        <svg className="am-link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                          <line x1="7" y1="17" x2="17" y2="7"></line>
-                          <polyline points="7 7 17 7 17 17"></polyline>
-                        </svg>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
