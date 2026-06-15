@@ -38,11 +38,17 @@ const achievements = [
   {
     id: "achievement-03",
     num: "03",
-    year: "2025",
-    category: "CLIENT WORK",
-    title: "Achievement Title Placeholder 03",
-    description: "Description Placeholder: A detailed description of the milestone, showcasing meaningful achievements, competitions, projects, leadership experiences, or client milestones that have shaped your professional journey.",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    year: "2026",
+    category: "INVESTOR INTERACTION",
+    title: "Meeting Startup Investors",
+    description: (
+      <>
+        Selected for an interaction session with <strong>Sachint Karnatak</strong>, founder of <strong>POCONUT</strong>, a startup valued at over ₹150 crore. Discussed <strong>fundraising</strong>, early-stage startup challenges, team building, and lessons from the entrepreneurial journey. The conversation provided practical insights into building, scaling, and <strong>startup growth</strong>.
+      </>
+    ),
+    image: "/investor-interaction-sachin-karnatak.webp",
+    imageAlt: "Himanshu Raj interacting with startup founder Sachint Karnatak during an entrepreneurship and fundraising discussion",
+    imageTitle: "Himanshu Raj with POCONUT Founder Sachint Karnatak",
     link: "#",
   },
   {
@@ -192,6 +198,18 @@ export default function AchievementsMilestones() {
         <span>Business Presentation</span>
         <span>Startup Showcase</span>
         <span>Himanshu Raj Public Speaking</span>
+        <span>Himanshu Raj Investor Meeting</span>
+        <span>Himanshu Raj Startup Founder</span>
+        <span>Himanshu Raj Fundraising</span>
+        <span>Himanshu Raj Startup Growth</span>
+        <span>Sachint Karnatak</span>
+        <span>POCONUT</span>
+        <span>POCONUT Founder</span>
+        <span>Startup Fundraising</span>
+        <span>Early Stage Startup</span>
+        <span>Entrepreneurship</span>
+        <span>Startup Team Building</span>
+        <span>Business Leadership</span>
       </div>
     </section>
   );

@@ -19,6 +19,11 @@ export async function GET() {
       <image:title>Himanshu Raj presenting Gaurdeo Startup</image:title>
       <image:caption>Himanshu Raj presenting Gaurdeo, a startup concept, before the Chairman of Uttarakhand Technical University.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://himanshuraj.me/investor-interaction-sachin-karnatak.webp</image:loc>
+      <image:title>Himanshu Raj with POCONUT Founder Sachint Karnatak</image:title>
+      <image:caption>Himanshu Raj participating in an investor-focused discussion with Sachint Karnatak, founder of POCONUT, covering fundraising, startup growth, and team building.</image:caption>
+    </image:image>
   </url>
 </urlset>`;
 

@@ -95,6 +95,12 @@ export const metadata: Metadata = {
         width: 1402,
         height: 1122,
         alt: "Himanshu Raj presenting Gaurdeo startup idea before Uttarakhand Technical University leadership",
+      },
+      {
+        url: "/investor-interaction-sachin-karnatak.webp",
+        width: 1448,
+        height: 1086,
+        alt: "Himanshu Raj interacting with startup founder Sachint Karnatak during an entrepreneurship and fundraising discussion",
       }
     ],
     locale: "en_US",
@@ -105,7 +111,7 @@ export const metadata: Metadata = {
     title: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
     description:
       "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp"],
+    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp"],
   },
 };
 
@@ -159,7 +165,8 @@ export default function RootLayout({
         "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj Dehradun, Himanshu Raj UTU, Himanshu Raj Uttarakhand Technical University, Himanshu Raj Student Entrepreneur, Himanshu Raj Startup Founder, Himanshu Raj Business Operations, Himanshu Raj AI Workflows, Himanshu Raj Digital Systems, Himanshu Raj Entrepreneurship, Himanshu Raj Startup Presentation, Himanshu Raj Gaurdeo, Himanshu Raj Guardeo, Himanshu Raj VEOMA AI, Himanshu Raj JBIT Dehradun",
         "award": [
           "Winner — Srijan Startup Presentation Competition",
-          "Presenting Gaurdeo to UTU Leadership"
+          "Presenting Gaurdeo to UTU Leadership",
+          "Meeting Startup Investors"
         ],
         "memberOf": [
           {
@@ -209,6 +216,22 @@ export default function RootLayout({
           "name": "Himanshu Raj presenting Gaurdeo Startup"
         },
         "keywords": "Himanshu Raj, Gaurdeo, Guardeo, Gaurdeo Startup, Startup Pitch, UTU Chairman, Uttarakhand Technical University Chairman, Student Entrepreneurship, Business Presentation, Startup Showcase"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://himanshuraj.me/#achievement-investor",
+        "name": "Meeting Startup Investors",
+        "creator": {
+          "@id": "https://himanshuraj.me/#person"
+        },
+        "description": "Selected for an interaction session with Sachint Karnatak, founder of POCONUT, a startup valued at over ₹150 crore. Discussed fundraising, early-stage startup challenges, team building, and lessons from the entrepreneurial journey.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://himanshuraj.me/investor-interaction-sachin-karnatak.webp",
+          "caption": "Himanshu Raj participating in an investor-focused discussion with Sachint Karnatak, founder of POCONUT, covering fundraising, startup growth, and team building.",
+          "name": "Himanshu Raj with POCONUT Founder Sachint Karnatak"
+        },
+        "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj Entrepreneurship, Himanshu Raj Startup, Himanshu Raj Investor Meeting, Himanshu Raj Startup Founder, Himanshu Raj Fundraising, Himanshu Raj Startup Growth, Sachint Karnatak, POCONUT, POCONUT Founder, Startup Fundraising, Early Stage Startup, Entrepreneurship, Startup Team Building, Business Leadership"
       }
     ]
   };
