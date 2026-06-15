@@ -7,10 +7,16 @@ const achievements = [
     id: "achievement-01",
     num: "01",
     year: "2026",
-    category: "COMPETITION",
-    title: "Achievement Title Placeholder 01",
-    description: "Description Placeholder: A detailed description of the milestone, showcasing meaningful achievements, competitions, projects, leadership experiences, or client milestones that have shaped your professional journey.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    category: "COMPETITION WINNER",
+    title: "Winner — Srijan Startup Presentation Competition",
+    description: (
+      <>
+        Presented a <strong>startup idea</strong> during the Srijan Project Presentation Competition and was selected as the <strong>winner</strong> after evaluation by an <strong>IIT Roorkee professor</strong>. The experience provided valuable feedback on <strong>entrepreneurship</strong>, problem-solving, and building ideas with practical business potential.
+      </>
+    ),
+    image: "/srijan-startup-competition-winner.webp",
+    imageAlt: "Himanshu Raj receiving Winner Award at Srijan Startup Project Presentation Competition",
+    imageTitle: "Himanshu Raj - Winner of Srijan Startup Presentation Competition",
     link: "#",
   },
   {
@@ -79,7 +85,7 @@ export default function AchievementsMilestones() {
       </div>
 
       <div className="am-timeline-container">
-        {achievements.map(({ id, num, year, category, title, description, image, link }, index) => {
+        {achievements.map(({ id, num, year, category, title, description, image, imageAlt, imageTitle, link }, index) => {
           const isEven = index % 2 === 0; // Alternates layout inside the right side card container
           return (
             <div className="am-row" key={id} id={id}>
@@ -99,8 +105,8 @@ export default function AchievementsMilestones() {
                     <div className="am-image-wrapper">
                       <Image
                         src={image}
-                        alt={title}
-                        title={title}
+                        alt={imageAlt || title}
+                        title={imageTitle || title}
                         fill
                         sizes="(max-width: 768px) 100vw, 400px"
                         className="am-image"

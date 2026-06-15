@@ -1052,6 +1052,11 @@ a {
   margin: 0;
 }
 
+.am-achievement-desc strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 .am-actions {
   margin-top: 0.5rem;
 }
