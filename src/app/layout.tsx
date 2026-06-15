@@ -113,6 +113,12 @@ export const metadata: Metadata = {
         width: 1448,
         height: 1086,
         alt: "Himanshu Raj receiving recognition after startup incubation selection at JB Institute of Technology",
+      },
+      {
+        url: "/freelancing-revenue-milestone.webp",
+        width: 1536,
+        height: 1024,
+        alt: "Himanshu Raj showcasing freelance business milestone of generating over ₹10 lakh in project revenue",
       }
     ],
     locale: "en_US",
@@ -123,7 +129,7 @@ export const metadata: Metadata = {
     title: "Himanshu Raj | Business Operations, Digital Systems & AI Workflows",
     description:
       "Himanshu Raj is a BBA student at JBIT Dehradun building digital systems, websites, content operations, workflow automation, and exploring AI for business execution.",
-    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp", "/founders-day-winner.webp", "/startup-incubation-jbit.webp"],
+    images: ["/og-image.png", "/srijan-startup-competition-winner.webp", "/gaurdeo-startup-presentation.webp", "/investor-interaction-sachin-karnatak.webp", "/founders-day-winner.webp", "/startup-incubation-jbit.webp", "/freelancing-revenue-milestone.webp"],
   },
 };
 
@@ -180,7 +186,8 @@ export default function RootLayout({
           "Presenting Gaurdeo to UTU Leadership",
           "Meeting Startup Investors",
           "Founders Day Winner",
-          "Selected for Incubation"
+          "Selected for Incubation",
+          "₹10L+ Revenue Generated"
         ],
         "memberOf": [
           {
@@ -278,6 +285,22 @@ export default function RootLayout({
           "name": "Himanshu Raj - Startup Incubation Selection at JBIT"
         },
         "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj Startup, Himanshu Raj Entrepreneurship, Himanshu Raj Incubation, Himanshu Raj Startup Incubation, Himanshu Raj Innovation, Himanshu Raj Startup Founder, Himanshu Raj Student Entrepreneur, JBIT Incubation, Startup Incubation Program, College Startup Incubation, IQAC, Innovation and Entrepreneurship, Academic Entrepreneurship, Startup Development, Business Innovation, Student Startup, Entrepreneurship Support"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://himanshuraj.me/#achievement-freelancing",
+        "name": "₹10L+ Revenue Generated",
+        "creator": {
+          "@id": "https://himanshuraj.me/#person"
+        },
+        "description": "Contributed to projects and service delivery efforts that generated over ₹10 lakh in revenue through freelance work and digital solutions.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://himanshuraj.me/freelancing-revenue-milestone.webp",
+          "caption": "Himanshu Raj highlighting revenue generated through freelance projects, digital systems, client delivery, and business operations.",
+          "name": "Himanshu Raj - ₹10 Lakh Revenue Milestone"
+        },
+        "keywords": "Himanshu Raj, Himanshu Raj BBA, Himanshu BBA, Himanshu Raj JBIT, Himanshu Raj JB Institute of Technology, Himanshu Raj UTU, Himanshu Raj Freelancing, Himanshu Raj Freelancer, Himanshu Raj Business Operations, Himanshu Raj Digital Systems, Himanshu Raj Website Development, Himanshu Raj Client Projects, Himanshu Raj Revenue Generation, Himanshu Raj Entrepreneurship, Himanshu Raj Digital Marketing, Himanshu Raj Workflow Automation, Himanshu Raj Project Management, Freelancing Revenue, Digital Services, Client Management, Website Projects, Business Growth, Revenue Milestone, Project Execution, Remote Client Work"
       }
     ]
   };

@@ -86,11 +86,17 @@ const achievements = [
   {
     id: "achievement-06",
     num: "06",
-    year: "2023",
-    category: "MILESTONE",
-    title: "Achievement Title Placeholder 06",
-    description: "Description Placeholder: A detailed description of the milestone, showcasing meaningful achievements, competitions, projects, leadership experiences, or client milestones that have shaped your professional journey.",
-    image: "https://images.unsplash.com/photo-1542744094-3a31f103e35f?auto=format&fit=crop&w=800&q=80",
+    year: "2026",
+    category: "BUSINESS MILESTONE",
+    title: "₹10L+ Revenue Generated",
+    description: (
+      <>
+        Contributed to projects and service delivery efforts that generated over <strong>₹10L+ Revenue</strong> (₹10 lakh) through freelance work and digital solutions. The journey involved working with clients, building websites, coordinating project execution, supporting marketing initiatives, and managing workflows across multiple engagements. This experience provided hands-on exposure to <strong>Business Operations</strong>, client management, and delivering measurable outcomes through <strong>Digital Services</strong> for various <strong>Client Projects</strong>.
+      </>
+    ),
+    image: "/freelancing-revenue-milestone.webp",
+    imageAlt: "Himanshu Raj showcasing freelance business milestone of generating over ₹10 lakh in project revenue",
+    imageTitle: "Himanshu Raj - ₹10 Lakh Revenue Milestone",
     link: "#",
   },
 ];
@@ -248,6 +254,22 @@ export default function AchievementsMilestones() {
         <span>Startup Development</span>
         <span>Student Startup</span>
         <span>Entrepreneurship Support</span>
+        <span>Himanshu Raj Freelancing</span>
+        <span>Himanshu Raj Freelancer</span>
+        <span>Himanshu Raj Freelancing Revenue</span>
+        <span>Himanshu Raj Client Projects</span>
+        <span>Himanshu Raj Revenue Generation</span>
+        <span>Himanshu Raj Digital Marketing</span>
+        <span>Himanshu Raj Workflow Automation</span>
+        <span>Himanshu Raj Project Management</span>
+        <span>Freelancing Revenue</span>
+        <span>Digital Services</span>
+        <span>Client Management</span>
+        <span>Website Projects</span>
+        <span>Business Growth</span>
+        <span>Revenue Milestone</span>
+        <span>Project Execution</span>
+        <span>Remote Client Work</span>
       </div>
     </section>
   );

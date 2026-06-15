@@ -34,6 +34,11 @@ export async function GET() {
       <image:title>Himanshu Raj - Startup Incubation Selection at JBIT</image:title>
       <image:caption>Himanshu Raj's startup selected for incubation support and mentorship at JB Institute of Technology, recognized by institutional leadership.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://himanshuraj.me/freelancing-revenue-milestone.webp</image:loc>
+      <image:title>Himanshu Raj - ₹10 Lakh Revenue Milestone</image:title>
+      <image:caption>Himanshu Raj highlighting revenue generated through freelance projects, digital systems, client delivery, and business operations.</image:caption>
+    </image:image>
   </url>
 </urlset>`;
 
